@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+/******************************* Page Layout ***************************/
+html, body{
+    background-color: #222 !important;
+    background-image: url(http://nullreferencegames.com/wp-content/themes/blackfyre/img/dark_wall.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: auto !important;
+    background-position: left top !important;
+    background-clip: border-box !important;
+    background-origin: padding-box !important;
+    background-attachment: fixed;
+}
+#b_results .b_algo{
+    margin-bottom: 5px !important;
+    width: 90% !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1.0em !important;
+    color: #ccc !important;
+}
+#b_results{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    flex-grow: 2 !important;
+    justify-content:  center !important;
+}
+#b_content{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+#b_content #b_context{
+    margin: 0 !important;
+    flex-grow: 2 !important;
+    margin-right: 100px !important;
+    
+}
+#b_content #b_tween{
+    align-content: flex-start !important;
+    width: 100% !important;
+}
+.b_ans .b_entityTP, .b_ad{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    margin-right: 100px !important;
+    border-top: 1px solid #2b2a2a !important;
+    border-left: 1px solid #2b2a2a !important;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    padding: 25px !important;
+    border-radius: 2px !important;
+}
+@media only screen and (max-width: 1620px) {
+    #b_results {
+        justify-content:  center !important;
+    }
+    .b_algo, #b_results .b_algo, #b_results > li, #b_results .b_ad, #b_results .b_ans, #b_results .b_pag{
+        width: 90% !important;
+    }
+}
+
+/******************************* Header ***************************/
+#b_header{
+    background-color: #222 !important;
+    border-bottom: 1px solid #2b2a2a !important;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+}
+.b_searchboxForm{
+    border: 1px solid #484848 !important;
+}
+.b_searchboxForm, .b_searchbox, .b_searchboxSubmit{
+    background-color: #181818 !important;
+    color: #cc5500 !important;
+}
+#sb_form_go{
+    border-color: #181818 !important;
+}
+#sw_as .sa_as, .sa_tm{
+    background-color: #181818 !important;
+    color: #cc5500 !important;
+}
+#b_header a:link{
+    color: #ccc !important;
+}
+.b_hList a:link{
+    color: #0092cc !important;
+}
+/******************************* List panel items ***************************/
+.b_algo{
+    background-color: #181818 !important;
+    width: 90% !important;
+    border-radius: 2px;
+    border-top: 1px solid #484848 !important;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+}
+.b_algo a:link{
+    color: #0092cc !important;
+}
+.b_algo a:visited{
+    color: #035372 !important;
+    
+}
+.b_algo .b_attribution cite{
+    color: #a39601 !important;
+}
+.b_vPanel div{
+    
+    color: red !important;
+}
+.b_vList .b_vPanel {
+    border-radius: 5px !important;
+}
+
+#b_results > li{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-top: 1px solid #2b2a2a !important;
+    border-left: 1px solid #2b2a2a !important;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    margin: 2px !important;
+    width: 90% !important;
+    padding: 25px !important;
+}
+#b_results .b_clearfix {
+    color: #ccc !important;
+}
+#b_results div{
+    color: #ccc !important;
+}
+#b_results a:link{
+    color: #0092cc !important;
+}
+#b_results a:visited{
+    color: #035372 !important;
+}
+#b_results a:hover{
+    color: #779933 !important;
+}
+#b_results h2, #b_results .b_attribution, #b_results p{
+    padding-bottom: 10px !important;
+}
+.b_ans.b_topborder .btm_sml a{
+    background-color: #282828 !important;
+    border-top: 1px solid #484848 !important;
+}
+.chevronDown{
+    opacity: .5 !important;
+    color: red !important;
+}
+#b_results .b_ad{
+    border: 1px solid #585858 !important;
+    margin: 2px !important;
+    border-radius: 2px !important;
+}
+#b_context .b_ans, #b_context #wpc_ag{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-top: 1px solid #484848 !important;
+    border-left: 1px solid #484848 !important;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    margin: 2px !important;
+    width: 90% !important;
+}
+.rc_vlHorizontalImage .rc_vlCard{
+    background-color: rgba(58, 58, 58, 0.219) !important;
+}
+.nws_itm, .nws_itmb{
+    background-color: rgba(0, 0, 0, 0.205) !important;
+}
+#b_context a:link{
+    color: #0092cc !important;
+}
+#b_context a:visited{
+    color: #035372 !important;
+}
+#b_results .b_pag{
+    display: flex !important;
+    justify-content: center !important;
+}
+.b_pag a.sb_pagS_bp{
+    border-bottom: 2px solid grey !important;
+    color: #a39601 !important;
+}
+#b_results .b_ans{
+    margin: 2px !important;
+    border-radius: 2px !important;
+}
+#b_results .b_algo{
+    margin: 2px !important;
+}
+.twc .twsCard{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.slide .na_ccw{
+    background-color: #181818 !important;
+    
+}
+.b_adSlug{
+    border: 1px solid #585858 !important;
+}
+.b_slyGridItem a:hover, .b_slyGridItem a.sel{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+#b_context .b_ans, #b_context #wpc_ag{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.df_y, .df_n{
+    background-color: grey !important;
+    border-radius: 10px !important;
+    border: 1px solid black !important;
+}
+#b_results > .b_pag a:hover{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+/******************************* Hyperlink Color ***************************/
+#b_context a:link, #b_results a:link, .b_algo a:link, .b_hList a:link{
+    color: #cc5500 !important;
+}
+#b_context a:visited, #b_results a:visited, .b_algo a:visited, .b_hList a:visited{
+    color: #b02c12 !important;
+}
+/******************************* Button Color ***************************/
+#b_results .b_algo .cbtn  {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #585858 !important;
+}
+#b_content a.cbtn:hover, #b_content .cbtn a:hover, .cbtn input:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #cc5500 !important;
+    color: #cc5500 !important;
+}
+a.cbtn, .cbtn a, .cbtn input, #b_content a.cbtn, #b_content a.cbtn:visited, #b_content .cbtn a, #b_content .cbtn a:visited{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #585858 !important;
+    color: #cc5500 !important;
+}
+
+.suggDD .ctxt{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #585858 !important;
+    color: #cc5500 !important;
+}
+.ctxt::-ms-input-placeholder{
+    color: #cc5500 !important;
+}

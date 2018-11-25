@@ -1,0 +1,9 @@
+{
+    "name" : "Bing Search Dark Theme",
+    "version" : "1.0.0",
+    "author" : "Micah Olson",
+    "content_scripts": [{
+        "css": ["dark.css"],
+        "matches": ["https://www.bing.com/*"]
+    }]
+}
