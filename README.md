@@ -1,6 +1,8 @@
 # Dark-Bing-Search-Theme
 A dark theme for the Bing search results page.
 
+![Github Dark Theme for Edge](https://i.postimg.cc/HLWJ4cw3/Bing-Dark-Theme.jpg)
+
 ## Install Instructions
 1. Download the Bing Dark Theme for Edge extension to your pc, then extract it.
 2. Open up Edge and type the following into the search bar: `about:flags`.
